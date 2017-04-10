@@ -1,0 +1,18 @@
+Campus:
+  script:
+    - pwd
+    - git checkout -f master
+    - git pull -f origin master
+    - git push -f dev master
+    - git checkout -f andrew
+    - git pull -f origin andrew
+    - git push -f dev andrew
+    - git checkout -f kyo
+    - git pull -f origin kyo
+    - git push -f dev kyo
+    - git checkout -f nero
+    - git pull -f origin nero
+    - git push -f dev nero
+    - git checkout -f ukaze
+    - git pull -f origin ukaze
+    - git push -f dev ukaze

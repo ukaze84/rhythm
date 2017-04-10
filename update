@@ -1,0 +1,7 @@
+#!/bin/sh
+
+branch=$(git branch | grep "*" | awk '{print $2}')
+git add .
+git commit -m "$*"
+git push origin $branch
+git push gitlab $branch

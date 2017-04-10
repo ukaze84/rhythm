@@ -1,0 +1,1 @@
+$('.slider').slider({full_width: true});
